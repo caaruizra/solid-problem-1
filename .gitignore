@@ -1,0 +1,38 @@
+# Maven
+target/
+*.jar
+*.war
+*.ear
+*.class
+*.classpath
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+.eclipse
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Build
+build/
+out/
+.gradle/
+
+# Dependencies
+node_modules/
+*.m2/
+
+docs
