@@ -117,31 +117,6 @@ Accede a: `http://localhost:8080/h2-console`
 - Usuario: `sa`
 - Contraseña: (dejar vacío)
 
----
-
-## Tareas para los Estudiantes
-
-### Nivel 1: Análisis
-- [ ] Identifica todas las responsabilidades en `ProductService`
-- [ ] Explica por qué el método `createProduct()` viola SRP
-- [ ] ¿Qué métodos en `ProductService` harían difícil el mantenimiento?
-
-### Nivel 2: Refactorización (SRP)
-- [ ] Crea una clase `ProductValidator` que maneje toda la validación
-- [ ] Crea una clase `ProductPricingService` para cálculos de descuento
-- [ ] Refactoriza `ProductService` para usar estas nuevas clases
-
-### Nivel 3: Refactorización (DIP)
-- [ ] Crea una interfaz `AuditLogger`
-- [ ] Crea implementaciones `ConsoleAuditLogger` y `FileAuditLogger`
-- [ ] Inyecta el `AuditLogger` en `ProductService` en lugar de usar `System.out.println()`
-
-### Nivel 4: Refactorización Completa
-- [ ] Refactoriza completamente el proyecto para seguir todos los principios SOLID
-- [ ] Crea pruebas unitarias que verifiquen el comportamiento
-- [ ] Documenta los cambios realizados
-
----
 
 ## Configuración adicional
 
